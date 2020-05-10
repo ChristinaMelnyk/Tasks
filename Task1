@@ -7,11 +7,11 @@
 
 def FizzBuzz(num):
     if num%3==0 and num%5==0:
-        return ("FizzBuzz")  # don't use braces in return statement
+        return "FizzBuzz" # don't use braces in return statement
     elif num%3==0:
-      return ('Fizz')
+      return "Fizz"
     elif num%5==0:
-      return ("Buzz")
+      return "Buzz"
     else:
-      return (num)          # you have to return str(num)
+      return str(num)          # you have to return str(num)
 print(FizzBuzz(15))
