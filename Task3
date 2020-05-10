@@ -1,0 +1,7 @@
+def solutions(a, b, c):
+    if ((b * b) - (4 * a * c)) > 0:
+        return 2
+    elif ((b * b) - (4 * a * c)) == 0:
+        return 1
+    else:
+        return 0
